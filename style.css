@@ -1,0 +1,40 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ .header{
+    min-height:100px;
+    background-color: lightblue;
+    color: midnightblue;
+    text-align: center;
+    padding: 15px;
+}
+.wrapper{
+    overflow: hidden;
+    border: 5px solid yellowgreen;
+   
+}
+.contact{
+    background-color: lightsalmon;
+    min-height: 300px;
+    width: 60%;
+    float: left;
+}
+.blog{
+   background-color: darkorchid;
+    min-height: 300px;
+    width: 40%;
+    float: right;
+}
+.blog img{
+    height: 300px;
+    width: 100%;
+}
+.footer{
+    background-color: slategrey;
+    min-height: 80px;
+    /* clear:both; */
+    text-align: center;
+    padding: 15px;
+    color: cornsilk;
+}
